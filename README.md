@@ -1,1 +1,1 @@
-hello, world!
+https://github.com/YernarKydyrbayev/ono-tebe-nado-fd
