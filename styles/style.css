@@ -51,8 +51,11 @@ ul {
     gap: 33px;
 }
 
-.link-active {
+.unmarkable-menu-item {
     list-style: none;
+}
+
+.link-active {
     text-decoration: none;
   }
 
@@ -84,7 +87,7 @@ ul {
     inset: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
 
@@ -105,7 +108,7 @@ ul {
 .cover-content {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     padding: 165px 50px 50px;
@@ -213,10 +216,11 @@ ul {
     flex-direction: column;
     width: 100%;
     height: 100%;
+    min-height: 596px;
     padding: 48px 40px;
     justify-content: space-between;
     gap: 30px;
-    position: absolute;
+    position: relative;
     z-index: 2; 
 }
 
@@ -262,7 +266,7 @@ ul {
     align-items: center;
     background-clip: border-box;
     margin-top: 35px;
-    margin-right: 7px;
+    margin-right: 9px;
     background-color: black;
     border-radius: 50%;
 }
