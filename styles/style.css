@@ -293,11 +293,11 @@ ul {
 }
 
 .about-paragraph-top {
-    style="max-width: 688px;
+    max-width: 688px;
 }
 
 .about-paragraph-bottom {
-    style="max-width: 693px;
+    max-width: 693px;
 }
 
 .about-text h2 {
